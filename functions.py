@@ -29,8 +29,12 @@ def cal(a, b, operator):
     elif operator == "divide":
         return a % b
     
-values = tuple(input("Enter 2 numbers: "))
+def sample(var):
+    return int(var) +1
+    
+# values = list(map(sample, input("Enter 2 numbers: ").split()))
+a, b = tuple(map(int, input("Enter 2 numbers: ").split()))
+print(a, b)
 operator = input("Enter operator to perform:(add, subtract, multiply, divide) ")
-print(values)
-# res = cal(a, b, operator)
-print(map(int, values))
+res = cal(a, b, operator)
+print(res)
