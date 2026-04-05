@@ -24,4 +24,4 @@ print("#".join(sample.split(" ")))
 print("a" + "#" + "b") # "ab"
 
 # How do you print a file path
-print("D:\Personal\DevOps\joindevops\daws-86s\python-basics\strings.py")
+print(r"E:\devops86s\repos\python-basics\strings.py") # E:\devops86s\repos\python-basics\strings.py
